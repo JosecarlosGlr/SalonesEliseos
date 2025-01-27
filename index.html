@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Lobster&family=Playball&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        header{
+            width: 100%;
+            height: 100px;
+            background-color: lightblue;
+            border: 5px double;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 40px;
+            color: blue;
+            font-family: "Playball", serif;
+        }
+        #izquierda{
+            width: 30%;
+            height: 600px;
+            float: left;
+            background-color: #faebd7;
+            font-family: "Lobster", serif;
+            border-right: 1px solid red;
+
+        }
+        #derecha{
+            width: 70%;
+            height: 600px;
+            float: left;
+            background-color: rgb(255, 228, 225);
+        }
+        #texto{
+            margin: 50px;
+            justify-content:center;
+            font-family: "Charm", serif;
+        }
+        #imagen{
+            height: 360px;
+            width: 400px;
+            margin: auto;
+        }
+        #centrado{
+            display: flex;
+            text-align: justify;
+            align-items: center;
+        }
+        article li{
+            margin-top: 0px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Salones Eliseos</h1>
+    </header>
+    <article id="izquierda">
+<li>Bodas</li>
+<li>Bautizos</li>
+<li>Comuniones</li>
+<li>Cenas de navidad</li>
+    </article>
+    <article id="derecha">
+    <p id="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia, quisquam tempora, ut asperiores architecto odio, soluta cupiditate eius labore quibusdam vitae sit dolore facilis iste non quae tempore ratione.</p>
+    <div id="centrado"><img src="http://joseluisbenitoandujar.es/salon.jpg" id="imagen"> </div>   
+</article>
+</body>
+</html>
